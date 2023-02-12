@@ -1,4 +1,4 @@
-package ru.umarsh.noteapp.feature_note.presentation
+package ru.umarsh.noteapp.feature_note.presentation.notes
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
@@ -13,8 +13,6 @@ import ru.umarsh.noteapp.feature_note.domain.model.Note
 import ru.umarsh.noteapp.feature_note.domain.use_case.NoteUseCase
 import ru.umarsh.noteapp.feature_note.domain.util.NoteOrder
 import ru.umarsh.noteapp.feature_note.domain.util.OrderType
-import ru.umarsh.noteapp.feature_note.presentation.notes.NotesEvent
-import ru.umarsh.noteapp.feature_note.presentation.notes.NotesState
 import javax.inject.Inject
 
 @HiltViewModel
